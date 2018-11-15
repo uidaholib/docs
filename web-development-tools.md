@@ -8,8 +8,9 @@
 - Join [uidaholib](https://github.com/uidaholib) organization and Web Team. An admin will invite you, but you must accept the invitations.
 - Familiarize with GitHub interface, [Hello World guide](https://guides.github.com/activities/hello-world/).
 - Learn [Markdown](https://daringfireball.net/projects/markdown/) basics, [Mastering Markdown guide](https://guides.github.com/features/mastering-markdown/)
-- Learn [HTML](https://www.w3schools.com/html/default.asp) basics and familiarize with [Bootstrap 4](https://getbootstrap.com/docs/4.1/getting-started/introduction/) basics
+- Familiarize with [HTML](https://www.w3schools.com/html/default.asp) and [Bootstrap 4](https://getbootstrap.com/docs/4.1/getting-started/introduction/) basics
 - Familiarize with basics of [Jekyll](https://jekyllrb.com/)
+- Understand how to add relative links using Liquid
 - Understand organization of website project
 
 ## Develop locally and push to contribute
@@ -22,18 +23,18 @@ Most of us use [Visual Studio Code](https://code.visualstudio.com/).
 
 #### 2. Install Git 
 
-- **Windows:** install [Git for Windows](https://git-for-windows.github.io/){:target="_blank"} using the default options, except when setup asks you to choose the default editor used by Git, select "Use the Nano editor by default". This will give you Git, Git Bash, and Git GUI. Git Bash is a great terminal that lets you use UNIX style commands and utilities on Windows.
-- **Mac:** check if Git is already installed by opening terminal and typing `git --version`. If you do not have it, your system will often prompt you to install "Xcode Command Line Tools"--follow the prompt as this package is necessary for Ruby as well. Alternatively, type `xcode-select --install` to start the process. If you want a newer version, download the official [Mac git installer](https://git-scm.com/downloads){:target="_blank"} or use Homebrew.
+- **Windows:** install [Git for Windows](https://git-for-windows.github.io/) using the default options, except when setup asks you to choose the default editor used by Git, select "Use the Nano editor by default". This will give you Git, Git Bash, and Git GUI. Git Bash is a great terminal that lets you use UNIX style commands and utilities on Windows.
+- **Mac:** check if Git is already installed by opening terminal and typing `git --version`. If you do not have it, your system will often prompt you to install "Xcode Command Line Tools"--follow the prompt as this package is necessary for Ruby as well. Alternatively, type `xcode-select --install` to start the process. If you want a newer version, download the official [Mac git installer](https://git-scm.com/downloads) or use Homebrew.
 - **Linux:** install from your distribution's software center or package manager (for Ubuntu `sudo apt install git`).
 
 #### 3. Install GitHub Desktop
 
-Windows and Mac users can also install [GitHub Desktop](https://desktop.github.com/){:target="_blank"} using the default options.
+Windows and Mac users can also install [GitHub Desktop](https://desktop.github.com/) using the default options.
 
 #### 4. Install Ruby 
 
-- **Windows:** Use [RubyInstaller for Windows](https://rubyinstaller.org/){:target="_blank"}. 
-    - First, [download](https://rubyinstaller.org/downloads/){:target="_blank"} the suggested stable version "WITH DEVKIT" (as of this writing, Ruby+Devkit 2.5.X (x64)) and double click to install. Use the install defaults, but make sure "Add Ruby executables to your PATH" is checked. On the final step, ensure the box to start the MSYS2 DevKit is checked.
+- **Windows:** Use [RubyInstaller for Windows](https://rubyinstaller.org/). 
+    - First, [download](https://rubyinstaller.org/downloads/) the suggested stable version "WITH DEVKIT" (as of this writing, Ruby+Devkit 2.5.X (x64)) and double click to install. Use the install defaults, but make sure "Add Ruby executables to your PATH" is checked. On the final step, ensure the box to start the MSYS2 DevKit is checked.
     - Second, the installer will open a terminal window with options to install MSYS2 DevKit components. Choose option 3, "MSYS2 and MINGW development toolchain", or simply press ENTER to install all the necessary dependencies. (This installer can be restarted by typing `ridk install` into a command prompt)
 - **Mac:** OS X has a version of Ruby installed by default. Check the version with `ruby -v`. If it is > 2.2.5 you can use the system Ruby. 
     - A newer version can be installed using [Homebrew](https://brew.sh/){:target="_blank"}, `brew install ruby`, or a manager such as [rbenv](https://github.com/rbenv/rbenv){:target="_blank"}. Check the official Jekyll [Mac install docs](https://jekyllrb.com/docs/installation/macos/){:target="_blank"} for tips. 
