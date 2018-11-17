@@ -1,4 +1,4 @@
-# Prep development environment on your computer:
+# Prep Jekyll development environment on your computer:
 
 ## 1. Install Git 
 
