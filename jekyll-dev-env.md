@@ -44,14 +44,26 @@ Most of us use [Visual Studio Code](https://code.visualstudio.com/) (this does *
 - Double click the file (something like ``) to start the installer, use the install defaults, but make sure "Add Ruby executables to your PATH" is checked. On the final step, ensure the box to start the MSYS2 DevKit is checked.
 - When complete, the installer will open a terminal window with options to install the MSYS2 DevKit components. Simply press Enter (or choose option 3, "MSYS2 and MINGW development toolchain") to install all the necessary dependencies. The installer will proceed through a bunch of steps outputting a bunch of text in the terminal window--*eventually*, this will conclude and you should see a message with success in it. If the window doesn't close, press Enter again or manually close it. (This installer can be restarted by typing `ridk install` into a command prompt)
 
-Other OS: 
+**Mac:** OS X has a version of Ruby installed by default. Check the version with `ruby -v`. If it is > 2.2.5 you can use the system Ruby, but it is better to install a non-system version using a manager. Check the official Jekyll [Mac install docs](https://jekyllrb.com/docs/installation/macos/) for tips. 
 
-- **Mac:** OS X has a version of Ruby installed by default. Check the version with `ruby -v`. If it is > 2.2.5 you can use the system Ruby. 
-    - A newer version can be installed using [Homebrew](https://brew.sh/){:target="_blank"}, `brew install ruby`, or a manager such as [rbenv](https://github.com/rbenv/rbenv){:target="_blank"}. Check the official Jekyll [Mac install docs](https://jekyllrb.com/docs/installation/macos/){:target="_blank"} for tips. 
-    - Ensure you have Xcode Command Line Tools, if not use `xcode-select --install` to start the installer.
-- **Linux:** Even though the version will not be the most up-to-date, the simplest method is to use your distro's repositories. For example on Ubuntu, `sudo apt install ruby-full`. Check `ruby -v` to make sure the repository version is > 2.2.5. See the official Jekyll [Ubuntu install docs](https://jekyllrb.com/docs/installation/ubuntu/){:target="_blank"} for more details.
-    - For a more up-to-date version, use a manager such as [RVM](http://rvm.io/){:target="_blank"} ([Ubuntu tips](https://evanwill.github.io/_drafts/notes/ruby-notes.html){:target="_blank"})
-    - You will also need some build tools (Make and GCC), on Ubuntu get them with `sudo apt install build-essential`.
+- Ensure you have Xcode Command Line Tools, if not use `xcode-select --install` to start the installer.
+- Install manager [RVM](https://rvm.io/) using helper: `\curl -sSL https://get.rvm.io | bash -s stable`
+- Install recent stable version of Ruby:
+    - Check [Ruby Downloads](https://www.ruby-lang.org/en/downloads/) for number of "current stable version", currently 2.5.3
+    - Use RVM to install that version: `rvm install 2.5.3` (this may take a long time...)
+    - Set it as default Ruby: `rvm use 2.5.3`
+    - Check: `ruby -v`
+- Alternatively, some people use [Homebrew](https://brew.sh/), `brew install ruby`, or another manager such as [rbenv](https://github.com/rbenv/rbenv).
+
+**Linux:** The simplest method is to use your distro's repositories (e.g. `sudo apt install ruby-full`), however it is probably better to use a version manager. Check `ruby -v` to make sure the repository version is > 2.2.5. See the official Jekyll [Ubuntu install docs](https://jekyllrb.com/docs/installation/ubuntu/) for more details.
+
+- Ensure you have standard build tools (Make and GCC), on Ubuntu get them with `sudo apt install build-essential`.
+- Install manager [RVM](https://rvm.io/) (this might require a terminal tweak, see [Ubuntu tips](https://evanwill.github.io/_drafts/notes/ruby-notes.html))
+- Install recent stable version of Ruby:
+    - Check [Ruby Downloads](https://www.ruby-lang.org/en/downloads/) for number of "current stable version", currently 2.5.3
+    - Use RVM to install that version: `rvm install 2.5.3` (this may take a long time...)
+    - Set it as default Ruby: `rvm use 2.5.3`
+    - Check: `ruby -v`
 
 ## 5. Install Jekyll 
 
