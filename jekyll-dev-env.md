@@ -47,7 +47,9 @@ Most of us use [Visual Studio Code](https://code.visualstudio.com/) (this does *
 **Mac:** OS X has a version of Ruby installed by default. Check the version with `ruby -v`. If it is > 2.2.5 you can use the system Ruby, but it is better to install a non-system version using a manager. Check the official Jekyll [Mac install docs](https://jekyllrb.com/docs/installation/macos/) for tips. 
 
 - Ensure you have Xcode Command Line Tools, if not use `xcode-select --install` to start the installer.
-- Install manager [RVM](https://rvm.io/) using helper: `\curl -sSL https://get.rvm.io | bash -s stable`
+- Install manager [RVM](https://rvm.io/) using helper:
+    - Get the public key: `gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB`
+    - Get the helper script and install: `\curl -sSL https://get.rvm.io | bash -s stable`
 - Install recent stable version of Ruby:
     - Check [Ruby Downloads](https://www.ruby-lang.org/en/downloads/) for number of "current stable version", currently 2.5.3
     - Use RVM to install that version: `rvm install 2.5.3` (this may take a long time...)
