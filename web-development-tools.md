@@ -4,7 +4,7 @@
 
 ## Contribute via GitHub web interface 
 
-- Create professional [GitHub account](https://github.com/join)
+- Create professional [GitHub account](https://github.com/join). In your [profile settings](https://github.com/settings/profile) please add a distinctive profile picture to make it easier to identify you.
 - Join [uidaholib](https://github.com/uidaholib) organization and Web Team. An admin will invite you, but you must accept the invitations.
 - Familiarize with GitHub interface, [Hello World guide](https://guides.github.com/activities/hello-world/).
 - Learn [Markdown](https://daringfireball.net/projects/markdown/) basics, [Mastering Markdown guide](https://guides.github.com/features/mastering-markdown/)
