@@ -48,6 +48,7 @@ Most of us use [Visual Studio Code](https://code.visualstudio.com/) (this does *
 
 - Ensure you have Xcode Command Line Tools, if not use `xcode-select --install` to start the installer.
 - Install manager [RVM](https://rvm.io/) using helper:
+    - Install gpg2, using [Homebrew](https://brew.sh/), `brew install gnupg`
     - Get the public key: `gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB`
     - Get the helper script and install: `\curl -sSL https://get.rvm.io | bash -s stable`
 - Install recent stable version of Ruby:
@@ -55,7 +56,7 @@ Most of us use [Visual Studio Code](https://code.visualstudio.com/) (this does *
     - Use RVM to install that version: `rvm install 2.5.3` (this may take a long time...)
     - Set it as default Ruby: `rvm use 2.5.3`
     - Check: `ruby -v`
-- Alternatively, some people use [Homebrew](https://brew.sh/), `brew install ruby`, or another manager such as [rbenv](https://github.com/rbenv/rbenv).
+- Alternatively, some people supposedly have success using [Homebrew](https://brew.sh/) (`brew install ruby`) or another manager such as [rbenv](https://github.com/rbenv/rbenv) (although experience suggests RVM is best option).
 
 **Linux:** The simplest method is to use your distro's repositories (e.g. `sudo apt install ruby-full`), however it is probably better to use a version manager. Check `ruby -v` to make sure the repository version is > 2.2.5. See the official Jekyll [Ubuntu install docs](https://jekyllrb.com/docs/installation/ubuntu/) for more details.
 
