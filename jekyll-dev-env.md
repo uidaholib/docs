@@ -49,12 +49,12 @@ Most of us use [Visual Studio Code](https://code.visualstudio.com/) (this does *
 - Ensure you have Xcode Command Line Tools, if not use `xcode-select --install` to start the installer.
 - Install manager [RVM](https://rvm.io/) using helper:
     - Install gpg2, using [Homebrew](https://brew.sh/), `brew install gnupg`
-    - Get the public key: `gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB`
-    - Get the helper script and install: `\curl -sSL https://get.rvm.io | bash -s stable`
+    - Get the public key from [https://rvm.io/rvm/install](https://rvm.io/rvm/install): `gpg --keyserver hkp://pool.sks-keyservers.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB`
+    - Get the helper script and install RVM stable with ruby: `\curl -sSL https://get.rvm.io | bash -s stable --ruby`
 - Install recent stable version of Ruby:
-    - Check [Ruby Downloads](https://www.ruby-lang.org/en/downloads/) for number of "current stable version", currently 2.5.3
-    - Use RVM to install that version: `rvm install 2.5.3` (this may take a long time...)
-    - Set it as default Ruby: `rvm use 2.5.3`
+    - Check [Ruby Downloads](https://www.ruby-lang.org/en/downloads/) for number of "current stable version", currently 2.6.4
+    - Use RVM to install that version: `rvm install 2.6.4` (this may take a long time...)
+    - Set it as default Ruby: `rvm --default use 2.6.4`
     - Check: `ruby -v`
 - Alternatively, some people supposedly have success using [Homebrew](https://brew.sh/) (`brew install ruby`) or another manager such as [rbenv](https://github.com/rbenv/rbenv) (although experience suggests RVM is best option).
 
