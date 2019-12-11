@@ -7,7 +7,7 @@
 - [main-web-redesign-draft](https://github.com/uidaholib/main-web-redesign_draft), main library website and assets (except /digital), lib.uidaho.edu
 - [digital_source](https://github.com/uidaholib/digital_source), digital homepage, lib.uidaho.edu/digital
 - [cdil_source](https://github.com/uidaholib/cdil_source), cdil homepage, cdil.lib.uidaho.edu
-- [primo-ui], code for primo customization
+- [primo-ui](https://github.com/uidaholib/primo-ui), code for primo customization
 
 Inside:
 
@@ -15,6 +15,15 @@ Inside:
 - [imagery_explorer_vue](https://github.com/uidaholib/imagery_explorer_vue), aerial imagery explorer source
 - [catalog_browser](https://github.com/uidaholib/catalog_browser), browse arcGIS online orgs
 - [inside-idaho-search-app](https://github.com/uidaholib/inside-idaho-search-app), search arcgis content (older: inside_idaho_search)
+
+## Docs 
+
+> look inside the "docs" folder in individual repos
+
+- [docs](https://github.com/uidaholib/docs), random documentation
+- [libwiki_docs](https://github.com/uidaholib/libwiki_docs), info about wiki on Reclaim
+- [vpod_docs](https://github.com/uidaholib/vpod_docs), info about VPOD on Reclaim
+- [vpod-tutorial](https://github.com/uidaholib/vpod-tutorial), how to markup and run VPOD
 
 ## Digital collection sites
 
@@ -48,11 +57,4 @@ Other:
 - [fridayletter_source]
 - [mric_source]
 - [lcoh_viewer], files for LCOH OHMS Viewer on Reclaim
-
-## Docs 
-
-- [docs](https://github.com/uidaholib/docs), random documentation
-- [libwiki_docs](https://github.com/uidaholib/libwiki_docs), info about wiki on Reclaim
-- [vpod_docs](https://github.com/uidaholib/vpod_docs), info about VPOD on Reclaim
-- [vpod-tutorial](https://github.com/uidaholib/vpod-tutorial), how to markup and run VPOD
 
