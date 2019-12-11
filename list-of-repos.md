@@ -18,6 +18,9 @@ Inside:
 
 ## Digital collection sites
 
+> stuff in lib.uidaho.edu/digital/ . 
+> preferably have assets in lib.uidaho.edu/assets and objects in lib.uidaho.edu/digital/objects
+
 - [collectionbuilder-cdm-template], most digital collections
 
 CB standalones:
