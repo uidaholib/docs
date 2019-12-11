@@ -51,5 +51,5 @@ Other:
 - [docs](https://github.com/uidaholib/docs), random documentation
 - [libwiki_docs](https://github.com/uidaholib/libwiki_docs), info about wiki on Reclaim
 - [vpod_docs](https://github.com/uidaholib/vpod_docs), info about VPOD on Reclaim
-- [vpod-tutorial], how to markup and run VPOD
+- [vpod-tutorial](https://github.com/uidaholib/vpod-tutorial), how to markup and run VPOD
 
