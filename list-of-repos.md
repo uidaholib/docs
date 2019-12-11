@@ -4,14 +4,14 @@
 
 ## Active web sites
 
-- [main-web-redesign-draft]
-- [digital_source]
-- [cdil_source]
+- [main-web-redesign-draft](https://github.com/uidaholib/main-web-redesign_draft), main library website and assets (except /digital), lib.uidaho.edu
+- [digital_source](https://github.com/uidaholib/digital_source), digital homepage, lib.uidaho.edu/digital
+- [cdil_source](https://github.com/uidaholib/cdil_source), cdil homepage, cdil.lib.uidaho.edu
 - [primo-ui], code for primo customization
 
 Inside:
 
-- [inside_source](https://github.com/uidaholib/inside_source), source for new Inside site (older: insideidaho_responsive_source, insideidaho_responsive_website)
+- [inside_source](https://github.com/uidaholib/inside_source), source for new Inside site (older: insideidaho_responsive_source, insideidaho_responsive_website), insideidaho.org
 - [imagery_explorer_vue](https://github.com/uidaholib/imagery_explorer_vue), aerial imagery explorer source
 - [catalog_browser](https://github.com/uidaholib/catalog_browser), browse arcGIS online orgs
 - [inside-idaho-search-app](https://github.com/uidaholib/inside-idaho-search-app), search arcgis content (older: inside_idaho_search)
